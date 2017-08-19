@@ -1,4 +1,4 @@
-# Hass.io Add-on: Terminal
+# Community Hass.io Add-on: Terminal
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -40,28 +40,29 @@ command-line tool to do things like restart, update, and check your instance.
 - Debug mode for allowing you to triage issues easier.
 - Compatible if Hass.io was installed via the generic Linux installer.
 - Have Alpine packages installed on start. This will allow you to install your
-favorite tools, which will be available every single time you log in.
-- Execute custom commands on start automatically, so you can customize the shell
-to your likings.
+  favorite tools, which will be available every single time you log in.
+- Execute custom commands on start automatically so that you can customize the
+  shell to your likings.
 - [ZSH][zsh] as its default shell. Easier to use for the beginner, more advanced
-for the more experienced user. It even comes preloaded with 
-["Oh My ZSH"][ohmyzsh], with some plugins enabled as well.
+  for the more experienced user. It even comes preloaded with 
+  ["Oh My ZSH"][ohmyzsh], with some plugins enabled as well.
 - Contains a sensible set of tools right out of the box: curl, Wget, RSync, GIT,
-Nmap, Mosquitto client, MariaDB/MySQL client, Awake (“wake on lan”), Nano, Vim,
-tmux, and a bunch commonly used networking tools.
+  Nmap, Mosquitto client, MariaDB/MySQL client, Awake (“wake on lan”), Nano,
+  Vim, tmux, and a bunch commonly used networking tools.
 
 ## Installation
 
 The installation of this add-on is pretty straight forward and not different in
 comparison to installing any other Hass.io add-on.
 
-1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance
+1. [Add our Hass.io add-ons repository][repository] to your Hass.io instance.  
+    **NOTE**: Do not add this repository, but use:
+    `https://github.com/hassio-addons/repository`.
 2. Install the "Terminal" add-on from our repository
 3. Start the "Terminal" add-on
-4. Check the logs of the "Terminal" add-on to see if everything
-went well.
-5. Surf to your Hass.io instance and use port `7681` (e.g. 
-`http://hassio.local:7681`).
+4. Check the logs of the "Terminal" add-on to see if everything went well.
+5. Surf to your Hass.io instance and use port `7681` 
+    (e.g. `http://hassio.local:7681`).
 
 Please read the rest of this document further instructions.
 
@@ -97,7 +98,7 @@ _*Note*: This is just an example, don't copy and past it! Create your own!_
 When set to `true` the addon will output more information in the logs of the
 add-on. The add-on will also start the terminal server in debug mode.
 
-This might be useful when you're dealing with an unknown issue. It is
+This might be useful when you are dealing with an unknown issue. It is
 recommended leaving to option set to `false`, unless you are troubleshooting.
 
 **Option: `username`**
@@ -137,7 +138,7 @@ _*Note*: The file MUST be stored in `/ssl/`, which is default for Hass.io_
 **Option: `packages`**
 
 Allows you to specify additional [Alpine packages][alpine-packages] to be 
-installed in your shell environment (e.g. Python, Joe, Irssi).
+installed in your shell environment (e.g., Python, Joe, Irssi).
 
 _*Note*: Adding many packages will result in a longer start-up 
 time for the add-on._
@@ -169,14 +170,16 @@ panel_iframe:
 
 Got questions? Got some unexpected behavior caused by this plugin?
 
-Please [open an issue on our GitHub repository][issues] and we'll do our best
+Please [open an issue on our GitHub repository][issues] and we will do our best
 to help you out.
 
 ## Credits
 
-A big shout out to the following people, without them this add-on wasn't possible:
-- The team & community of [Home Assistant][home-assistant] for developing such an
-excellent home automation toolkit
+A big shout out to the following people, without them this add-on was not 
+possible:
+
+- The team & community of [Home Assistant][home-assistant] for developing such
+  an excellent home automation toolkit
 
 Thank you all!
 
@@ -185,7 +188,7 @@ Thank you all!
 Do you like this add-on? Want some more functionality to your Hass.io Home
 Assistant instance?
 
-We've created multiple add-ons for Hass.io. For a full list, check out
+We have created multiple add-ons for Hass.io. For a full list, check out
 our [GitHub Repository][repository].
 
 ## License
@@ -239,8 +242,8 @@ SOFTWARE.
 [i386-microbadger]: https://microbadger.com/images/hassioaddons/terminal-i386
 [i386-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/terminal-i386.svg
 [i386-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/terminal-i386.svg
-[issues]: https://github.com/hassio-addons/repository/issues
-[license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
+[issues]: https://github.com/hassio-addons/addon-terminal/issues
+[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-terminal.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2017.svg
 [ohmyzsh]: http://ohmyz.sh/
 [project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
