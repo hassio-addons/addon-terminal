@@ -33,8 +33,8 @@ update, and check your instance.
 
 - Access your terminal right from the web!
 - Add-able to your Home Assistant interface.
-- Debug mode for allowing you to triage issues easier.
 - Compatible if Hass.io was installed via the generic Linux installer.
+- Persists custom SSH client settings & keys between add-on restarts
 - Have Alpine packages installed on start. This will allow you to install your
   favorite tools, which will be available every single time you log in.
 - Execute custom commands on start automatically so that you can customize the
@@ -137,7 +137,7 @@ Using `trace` or `debug` log levels puts the terminal daemon into debug mode.
 This option allows you to enable authentication on accessing the terminal.
 It is only used for the authentication; you will be the `root` user after
 you have authenticated. Using `root` as the username is possible, but not
-recommended. Leaving it empty would disable the possibility to authentication
+recommended. Leaving it empty would disable the possibility of authentication
 completely.
 
 **Note**: _If you set an `username`, `password` becomes mandatory as well._
@@ -196,6 +196,16 @@ panel_iframe:
     icon: mdi:console
     url: https://addres.to.your.hass.io:7681
 ```
+
+## Known issues and limitations
+
+The following error may occur in your add-on log:
+
+```txt
+ERR: lws_context_init_server_ssl: SSL_CTX_load_verify_locations unhappy
+````
+
+This error can be safely ignored; the add-on will function properly.
 
 ## Changelog & Releases
 
