@@ -5,21 +5,33 @@ FROM ${BUILD_FROM}
 ENV LANG="C.UTF-8" \
     TERM="xterm-256color"
 
-# Copy data
-COPY files/run.sh /
-COPY files/hassio /usr/bin/
-COPY files/motd /etc/
-COPY files/.zshrc /root/
-COPY files/.tmux.conf /root/
+# Copy root filesystem
+COPY rootfs /
 
 # Setup base
-RUN apk add --no-cache jq openssh-client sudo zsh openssl libxml2-utils \
-    ncurses curl wget net-tools bind-tools rsync git nmap wget awake \
-    nano vim mosquitto-clients mariadb-client tmux ttyd && \
-    git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && \
-    chmod a+x /run.sh /usr/bin/hassio
-
-CMD [ "/run.sh" ]
+RUN \
+    apk add --no-cache \
+        awake \
+        bind-tools \
+        git \
+        libxml2-utils \
+        mariadb-client \
+        mosquitto-clients \
+        nano \
+        ncurses \
+        net-tools \
+        nmap \
+        openssh-client \
+        openssl \
+        rsync \
+        sudo \
+        tmux \
+        ttyd \
+        vim \
+        wget \
+        zsh \
+    \
+    && git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 # Build arugments
 ARG BUILD_ARCH
