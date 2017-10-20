@@ -28,7 +28,7 @@ No are unreleased changes yet.
 - Upgraded the hassio CLI tool to the latest version
 - Updated documentation
 
-## [v1.0.0][v1.0.0] - (2017-08-16)
+## [v1.0.0][v1.0.0] (2017-08-16)
 
 ### Added
 
