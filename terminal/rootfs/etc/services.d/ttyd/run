@@ -26,7 +26,7 @@ ttyd_options+=(--port 7681)
 if hass.config.true 'ssl'; then
     ttyd_options+=(--ssl)
     ttyd_options+=(--ssl-cert "/ssl/$(hass.config.get 'certfile')")
-    ttyd_options+=(--ssl-key "/ss/$(hass.config.get 'keyfile')")
+    ttyd_options+=(--ssl-key "/ssl/$(hass.config.get 'keyfile')")
 fi
 
 # Add login credentials, when enabled.
