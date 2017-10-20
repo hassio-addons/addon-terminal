@@ -11,6 +11,8 @@ No are unreleased changes yet.
 
 ## [v2.0.1][v2.0.1] (2017-10-20)
 
+[Full Changelog][v2.0.0-v2.0.1]
+
 ### Fixed
 
 - Terminal does not start, with SSL enabled [#13][13] ([cogneato][])
