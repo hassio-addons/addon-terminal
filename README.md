@@ -301,6 +301,7 @@ SOFTWARE.
 [codeclimate]: https://codeclimate.com/github/hassio-addons/addon-terminal
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-terminal.svg
 [commits]: https://github.com/hassio-addons/addon-terminal/commits/master
+[contributors]: https://github.com/hassio-addons/addon-terminal/graphs/contributors
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
