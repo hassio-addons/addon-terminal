@@ -9,19 +9,28 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 No are unreleased changes yet.
 
-## [v2.0.1][v2.0.1] (2017-10-20)
+## [v2.0.2] (2017-10-30)
+
+[Full Changelog][v2.0.1-v2.0.2]
+
+### Changed
+
+- Updated base images to v1.0.1
+- Protocol adaptive 'WebUI' button #16
+
+## [v2.0.1] (2017-10-20)
 
 [Full Changelog][v2.0.0-v2.0.1]
 
 ### Fixed
 
-- Terminal does not start, with SSL enabled [#13][13] ([cogneato][])
+- Terminal does not start, with SSL enabled #13 (@cogneato)
 
 ### Changed
 
 - Updated ttyd log level to be more usefull
 
-## [v2.0.0][v2.0.0] (2017-10-20)
+## [v2.0.0] (2017-10-20)
 
 [Full Changelog][v1.0.0-v2.0.0]
 
@@ -40,19 +49,19 @@ No are unreleased changes yet.
 - Upgraded the hassio CLI tool to the latest version
 - Updated documentation
 
-## [v1.0.0][v1.0.0] (2017-08-16)
+## [v1.0.0] (2017-08-16)
 
 ### Added
 
 - First version of the Terminal Add-on
 - This CHANGELOG file
 
-[13]: https://github.com/hassio-addons/addon-terminal/issues/13
-[cogneato]: https://github.com/cogneato
 [keep-a-changelog]: http://keepachangelog.com/en/1.0.0/
 [semantic-versioning]: http://semver.org/spec/v2.0.0.html
 [v1.0.0-v2.0.0]: https://github.com/hassio-addons/addon-terminal/compare/v1.0.0...v2.0.0
 [v1.0.0]: https://github.com/hassio-addons/addon-terminal/tree/v1.0.0
 [v2.0.0-v2.0.1]: https://github.com/hassio-addons/addon-terminal/compare/v2.0.0...v2.0.1
 [v2.0.0]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.0
+[v2.0.1-v2.0.2]: https://github.com/hassio-addons/addon-terminal/compare/v2.0.1...v2.0.2
 [v2.0.1]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.1
+[v2.0.2]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.2
