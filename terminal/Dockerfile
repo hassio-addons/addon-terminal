@@ -5,9 +5,6 @@ FROM ${BUILD_FROM}
 ENV LANG="C.UTF-8" \
     TERM="xterm-256color"
 
-# Copy root filesystem
-COPY rootfs /
-
 # Setup base
 RUN \
     apk add --no-cache \
@@ -32,6 +29,9 @@ RUN \
         zsh \
     \
     && git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+# Copy root filesystem
+COPY rootfs /
 
 # Build arugments
 ARG BUILD_ARCH
