@@ -7,9 +7,22 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 ## Unreleased
 
+No unreleased changes yet.
+
+## [v2.1.0] (2017-12-02)
+
+[Full Changelog][v2.0.2-v2.1.0]
+
+### Changed
+
+- Upgrades add-on base image to v1.2.0
+- Improves ttyd S6 run script
+- Moves copy of rootfs at a later stage
+
 ### Removed
 
 - Removes `repository.json` to prevent user to install wrong repo
+- Removes Gratipay from README, since it is EOL
 
 ## [v2.0.2] (2017-10-30)
 
@@ -66,4 +79,6 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 [v2.0.0]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.0
 [v2.0.1-v2.0.2]: https://github.com/hassio-addons/addon-terminal/compare/v2.0.1...v2.0.2
 [v2.0.1]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.1
+[v2.0.2-v2.1.0]: https://github.com/hassio-addons/addon-terminal/compare/v2.0.2...v2.1.0
 [v2.0.2]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.2
+[v2.1.2]: https://github.com/hassio-addons/addon-terminal/tree/v2.1.0
