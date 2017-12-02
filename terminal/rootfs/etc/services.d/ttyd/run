@@ -39,4 +39,4 @@ fi
 cd /root || hass.die 'Unable to change working directory'
 
 # Run the ttyd daemon
-ttyd "${ttyd_options[@]}" "${TTYD_COMMAND[@]}"
+exec ttyd "${ttyd_options[@]}" "${TTYD_COMMAND[@]}"
