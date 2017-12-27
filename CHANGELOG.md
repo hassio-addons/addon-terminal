@@ -9,6 +9,26 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 No unreleased changes yet.
 
+## [v2.1.1] (2017-12-27)
+
+[Full Changelog][v2.1.0-v2.1.1]
+
+### Fixed
+
+- Fixed typo in CHANGELOG
+
+### Changed
+
+- Upgrades add-on base image to v1.3.0
+- Use image tagged as test as a cache resource
+- Pass local CircleCI Docker socket into the build container
+- Prevents possible future Docker login issue
+- Updated forum topic URL in README
+
+### Removed
+
+- Removes Microbadger notification hooks
+
 ## [v2.1.0] (2017-12-02)
 
 [Full Changelog][v2.0.2-v2.1.0]
@@ -81,4 +101,6 @@ No unreleased changes yet.
 [v2.0.1]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.1
 [v2.0.2-v2.1.0]: https://github.com/hassio-addons/addon-terminal/compare/v2.0.2...v2.1.0
 [v2.0.2]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.2
+[v2.1.0-v2.1.1]: https://github.com/hassio-addons/addon-terminal/compare/v2.1.0...v2.1.1
 [v2.1.0]: https://github.com/hassio-addons/addon-terminal/tree/v2.1.0
+[v2.1.1]: https://github.com/hassio-addons/addon-terminal/tree/v2.1.1
