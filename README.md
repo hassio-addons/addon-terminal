@@ -326,7 +326,7 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-terminal/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-terminal.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2017.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [ohmyzsh]: http://ohmyz.sh/
 [patreon-shield]: https://img.shields.io/badge/donate-patreon-blue.svg
 [patreon]: https://www.patreon.com/frenck
