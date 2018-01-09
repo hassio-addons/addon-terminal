@@ -28,7 +28,8 @@ RUN \
         wget \
         zsh \
     \
-    && git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+    && git clone --depth 1 \
+        git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 # Copy root filesystem
 COPY rootfs /
