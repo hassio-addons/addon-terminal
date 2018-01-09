@@ -6,6 +6,7 @@ ENV LANG="C.UTF-8" \
     TERM="xterm-256color"
 
 # Setup base
+ARG BUILD_ARCH
 RUN \
     apk add --no-cache \
         awake \
@@ -29,13 +30,15 @@ RUN \
         zsh \
     \
     && git clone --depth 1 \
-        git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+        git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \
+    \
+    && curl -L -s -o /usr/bin/hassio \
+        "https://github.com/home-assistant/hassio-cli/releases/download/1.0.1/hassio_${BUILD_ARCH}"
 
 # Copy root filesystem
 COPY rootfs /
 
 # Build arugments
-ARG BUILD_ARCH
 ARG BUILD_DATE
 ARG BUILD_REF
 ARG BUILD_VERSION
