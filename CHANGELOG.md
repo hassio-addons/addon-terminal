@@ -9,6 +9,22 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 No unreleased changes yet.
 
+## [v2.2.0] (2018-01-09)
+
+[Full Changelog][v2.1.1-v2.2.0]
+
+### Added
+
+- Added the new Hassio CLI v1.0.1
+
+### Changed
+
+- Updates forum link in other places
+- Adds Supervisor>=v0.81.0 as an requirement
+- Reduces clone depth of Oh My Zsh
+- Upgrades add-on base image to v1.3.1
+- Updated maintenance year, it is 2018
+
 ## [v2.1.1] (2017-12-27)
 
 [Full Changelog][v2.1.0-v2.1.1]
@@ -103,4 +119,6 @@ No unreleased changes yet.
 [v2.0.2]: https://github.com/hassio-addons/addon-terminal/tree/v2.0.2
 [v2.1.0-v2.1.1]: https://github.com/hassio-addons/addon-terminal/compare/v2.1.0...v2.1.1
 [v2.1.0]: https://github.com/hassio-addons/addon-terminal/tree/v2.1.0
+[v2.1.1-v2.2.0]: https://github.com/hassio-addons/addon-terminal/compare/v2.1.1...v2.2.0
 [v2.1.1]: https://github.com/hassio-addons/addon-terminal/tree/v2.1.1
+[v2.2.0]: https://github.com/hassio-addons/addon-terminal/tree/v2.2.0
