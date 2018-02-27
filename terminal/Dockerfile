@@ -33,7 +33,7 @@ RUN \
         git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \
     \
     && curl -L -s -o /usr/bin/hassio \
-        "https://github.com/home-assistant/hassio-cli/releases/download/1.0.1/hassio_${BUILD_ARCH}"
+        "https://github.com/home-assistant/hassio-cli/releases/download/1.2.1/hassio_${BUILD_ARCH}"
 
 # Copy root filesystem
 COPY rootfs /
