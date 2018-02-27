@@ -24,11 +24,14 @@ RUN \
         rsync \
         sudo \
         tmux \
-        ttyd \
         vim \
         wget \
         zip \
         zsh \
+    \
+    && apk add --no-cache \
+        --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
+        ttyd \
     \
     && git clone --depth 1 \
         git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \
