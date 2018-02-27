@@ -27,6 +27,7 @@ RUN \
         ttyd \
         vim \
         wget \
+        zip \
         zsh \
     \
     && git clone --depth 1 \
