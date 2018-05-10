@@ -22,6 +22,7 @@ RUN \
         openssh-client \
         openssl \
         rsync \
+        sqlite \
         sudo \
         tmux \
         vim \
