@@ -8,7 +8,6 @@ ENV LANG="C.UTF-8" \
 
 # Setup base
 ARG BUILD_ARCH
-# hadolint ignore=DL3018
 RUN \
     apk add --no-cache \
         awake=1.0-r2 \
@@ -32,7 +31,7 @@ RUN \
         wget=1.19.5-r0 \
         zip=3.0-r4 \
         zsh=5.4.2-r1 \
-        'ttyd@edge>=1.4.0-r3' \
+        ttyd=1.3.3-r3 \
     \
     && git clone --depth 1 \
         git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \
