@@ -6,6 +6,21 @@
  | |  | | (_| \__ \__ \_ _| || |__| |
  |_|  |_|\__,_|___/___(_)_____\____/
 
+==================================================================
+!!! DEPRECATION WARNING !!!
+==================================================================
+
+This add-on is now deprecated and has been replaced by a
+different addon: "SSH & Web Terminal"
+
+This new add-on combines the SSH and Terminal add-ons into
+one single powerful solution, contains the latest upgrades
+and updates, and provide much more tools.
+
+Please upgrade asap since this add-on won't receive any
+updates or upgrades anymore.
+
+==================================================================
 
 Our Cli:
 $ hassio help

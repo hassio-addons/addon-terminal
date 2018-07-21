@@ -17,6 +17,19 @@
 This add-on allows you to log in to your Hass.io Home Assistant instance using
 a web terminal.
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+This add-on is now deprecated and has been replaced by a different addon:
+["SSH & Web Terminal"](https://github.com/hassio-addons/addon-ssh)
+
+This new add-on combines the SSH and Terminal add-ons into one single powerful
+solution, contains the latest upgrades and updates, and provide much more tools.
+
+Please upgrade asap since this add-on won't receive any updates or upgrades
+anymore.
+
 ## About
 
 This add-on allows you to log in to your Hass.io Home Assistant instance using
@@ -337,7 +350,7 @@ SOFTWARE.
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-terminal.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [ohmyzsh]: http://ohmyz.sh/
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-terminal.svg
 [releases]: https://github.com/hassio-addons/addon-terminal/releases

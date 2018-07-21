@@ -21,7 +21,7 @@ RUN \
         net-tools=1.60_git20140218-r1 \
         nmap=7.60-r2 \
         openssh=7.5_p1-r8 \
-        openssl=1.0.2o-r0 \
+        openssl=1.0.2o-r1 \
         pwgen=2.08-r0 \
         rsync=3.1.3-r0 \
         sqlite=3.21.0-r1 \
